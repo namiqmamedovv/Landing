@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Header{
+    background-color: #2E2E30;
+    padding: 1px 5.2rem;   
+    overflow: auto;  
+    background-color: #F8F9FA; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#Header .logo  a{
+    font-size: 20px;
+    color: #000000E6;   
+}
+
+.navbar a{   
+    float: right;
+    font-size: 0.95rem;
+    color: #ffff;
+    padding-left: 3%;
+    background-color: #0D6EFD;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 1rem;   
+    font-family: sans-serif; 
+    border-radius: 5px; 
+    padding: 15px;
+    margin-right: 20px;
+    margin-top: 12px;        
+}
+
+#Landing{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;   
+    padding: 10rem 0;
+    
+}
+
+.text h1{
+    font-size: 48px;
+    color: #ffff;
+    font-weight: bold;  
+    margin-bottom: 30px; 
+    text-align: center;         
+}
+
+.text input{
+    width: 32%;
+    padding: 1.2rem 1rem;     
+    border-radius: 5px;
+    border: none;
+    margin-left: 28rem;
+    font-size: 1.25rem;
+}
+
+.text button{
+    font-size: 18px;
+    padding: 1.3rem 1.2rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #266CD3;
+    margin-left: 15px;    
+}
+
+#icons{
+    background-color: #F8F9FA;
+    padding: 7rem 0;
+    
+}
+.boxes{
+    margin-left: 5rem;
+    width: 100%;
+    display: flex;
+}
+.boxes h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.boxes p{
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+    
+}
+.boxes .box{
+    width: 30%;
+    text-align: center;
+}
+#zip1{
+    width: 74%;
+    margin-left: 55px;
+}
+#zip2{
+   width: 82%; 
+   margin-left: 40px;
+}
+#zip3{
+    width: 76%;
+    margin-left: 4rem;
+}
+i{
+    padding: 25px;
+    font-size: 50px;
+    border-radius: 5px; 
+    color: #0D6EFD;     
+}
+
+#Team{
+    padding: 9rem 5rem;
+    
+}
+.team-text{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    
+}
+.team-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 15%;
+    border-radius: 100%;
+}
+.box img{
+    width: 100%;
+    border-radius: 100%;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    
+}
+.box h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.box p{
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    color: #212529;
+    font-family: sans-serif;
+}
+#text1{
+    width: 158%;
+    margin-left: -45px;
+}
+#text2{
+    width: 145%;
+    margin-left: -42px;
+}
+#text3{
+    width: 149%;
+    margin-left: -43px;
+}
+
+#ready{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+   
+    
+}
+.ready-text h2{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.ready-text input{
+    width: 33%;   
+    padding: 1.2rem 1rem;     
+    border-radius: 5px;
+    border: none;
+    margin-left: 27rem;
+    font-size: 1.25rem;
+}
+
+.ready-text button{
+    font-size: 18px;
+    padding: 1.3rem 1.2rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #266CD3;
+    margin-left: 15px;    
+}
+
+.footer{
+    padding: 2rem 0;
+    display: flex;
+    margin-left: 6rem;
+}
+.footer a{
+    padding-right: 25px;
+    font-size: 16px;
+    color: #0D6EFD;
+    line-height: 1.8rem;
+}
+.footer p{
+    font-size: 14px;
+    color: #6C757D;
+}
+.icon{
+    float: right;
+    margin: 0 5rem;    
+}
+
+i{   
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 5px; 
+    color: #0D6EFD;   
+}
+
